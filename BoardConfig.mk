@@ -41,4 +41,4 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/pdx206/BoardConfigVendor.mk
+include vendor/sony/pdx206/BoardConfigVendor.mk
