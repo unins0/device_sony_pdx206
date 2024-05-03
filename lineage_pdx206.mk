@@ -24,6 +24,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Extras
+ifneq ($(wildcard vendor/sony/extra),)
+TARGET_USES_EXTRAS_DOLBY := true
+TARGET_USES_EXTRAS_CAMERAAPPS := true
+endif
+
 IS_PHONE := true
 
 PRODUCT_NAME := lineage_pdx206

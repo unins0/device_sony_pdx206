@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Extras
+$(call inherit-product, vendor/sony/extra/extra.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     SonyPDX206FrameworksRes \
