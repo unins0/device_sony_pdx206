@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common VoltageOS stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Extras
 ifneq ($(wildcard vendor/sony/extra),)
@@ -32,7 +32,10 @@ endif
 
 IS_PHONE := true
 
-PRODUCT_NAME := lineage_pdx206
+# Boot animation resolution.
+TARGET_BOOT_ANIMATION_RES := 1920
+
+PRODUCT_NAME := voltage_pdx206
 PRODUCT_DEVICE := pdx206
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
