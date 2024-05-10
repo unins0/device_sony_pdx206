@@ -24,12 +24,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common VoltageOS stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Extras
-ifneq ($(wildcard vendor/sony/extra),)
-TARGET_USES_EXTRAS_DOLBY := true
-TARGET_USES_EXTRAS_CAMERAAPPS := true
-endif
-
 IS_PHONE := true
 
 # Boot animation resolution.
