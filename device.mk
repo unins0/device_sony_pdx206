@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     SonyPDX206SystemUIRes
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-yaap
 
 # HDR
 PRODUCT_COPY_FILES += \
