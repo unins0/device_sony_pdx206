@@ -47,9 +47,6 @@ PRODUCT_PACKAGES += \
     SonyPDX206SettingsRes \
     SonyPDX206SystemUIRes
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-yaap
-
 # HDR
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libhdr_somc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/libhdr_somc.xml
