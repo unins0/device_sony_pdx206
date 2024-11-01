@@ -347,7 +347,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="5"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -376,7 +376,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="7"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -448,7 +448,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="5"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -477,7 +477,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="7"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -549,7 +549,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="2"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -578,7 +578,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -650,7 +650,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="5"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
@@ -679,7 +679,7 @@
         <hearing-protection-rms-attenuation-target value="-320"/>
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
-        <volume-leveler-enable value="true"/>
+        <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-320"/>
         <volume-leveler-out-target value="-320"/>
