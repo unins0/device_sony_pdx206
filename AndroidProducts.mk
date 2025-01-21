@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_pdx206.mk
+    $(LOCAL_DIR)/voltage_pdx206.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_pdx206-user \
-    yaap_pdx206-userdebug \
-    yaap_pdx206-eng
+    voltage_pdx206-user \
+    voltage_pdx206-userdebug \
+    voltage_pdx206-eng
