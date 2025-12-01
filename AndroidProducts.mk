@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx206.mk
+    $(LOCAL_DIR)/yaap_pdx206.mk
