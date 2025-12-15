@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_pdx206.mk
+    $(LOCAL_DIR)/voltage_pdx206.mk
